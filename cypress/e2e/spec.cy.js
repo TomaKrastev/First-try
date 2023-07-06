@@ -5,8 +5,6 @@ describe('Test BX Onboarding', () => {
     cy.origin(`https://login-qa.siemens.com`, () => {
     cy.get(`input[name="email"]`).type(`toma.krastev@siemens.com`);
     cy.get('.auth0-label-submit').click();
-    })
-    
-    
+    }) 
   })
 })
